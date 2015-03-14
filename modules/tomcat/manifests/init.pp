@@ -1,6 +1,6 @@
 class tomcat {
 
-  $tomcat_port = 735
+  $tomcat_port = 80
   $tomcat_password = 'badwolf' 
   
   notice("Establishing http://$hostname:$tomcat_port/")
