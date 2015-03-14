@@ -12,11 +12,11 @@ class tomcat {
   package { 'tomcat6':
   }
 
-  package { 'tomcat6-user':
+  package { 'tomcat6-webapps':
     require => Package['tomcat6'],
   }
  
-  package { 'tomcat6-admin':
+  package { 'tomcat6-admin-webapps':
     require => Package['tomcat6'],
   }
 
